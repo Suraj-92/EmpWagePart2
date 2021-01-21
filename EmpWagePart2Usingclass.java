@@ -1,4 +1,4 @@
-public class EmpWagePart2Usingclass{
+class EmpWagePart2Usingclass{
 
 		public static final int isPartTime=1;
       public static final int isFullTime=2;
@@ -6,10 +6,10 @@ public class EmpWagePart2Usingclass{
 		public static final int numOfWorkingDays=2;
 		public static final int maxHrsInMonth=10;	
 
-	public static void main(String[] args){
 	int empHrs=0;
 	int totalEmpHrs=0;
 	int totalWorkingDays=0;
+	void compute(){
 	while(totalEmpHrs <= maxHrsInMonth && totalWorkingDays < numOfWorkingDays)
 	{
 		totalWorkingDays++;
@@ -31,5 +31,10 @@ public class EmpWagePart2Usingclass{
 	}
 int totalEmpWage=totalEmpHrs * empRatePerHr;
 System.out.println("Total Emp Wage: " +totalEmpWage);
+
+
 }
-}
+public static void main(String[] args){
+	EmpWagePart2Usingclass e=new EmpWagePart2Usingclass();
+	e.compute();
+}}
