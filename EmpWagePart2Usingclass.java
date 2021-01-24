@@ -48,8 +48,19 @@ public static void main(String[] args)
 {
 	EmpWagePart2Usingclass emp=new EmpWagePart2Usingclass("DMart",20,2,10);
 	EmpWagePart2Usingclass emp1=new EmpWagePart2Usingclass("Reliance",30,3,10);
+<<<<<<< HEAD
 	System.out.println("Total Emp Wage For Company " +emp.company + " is: " + emp.computeWage());
    System.out.println("Total Emp Wage For Company " +emp1.company + " is: " + emp1.computeWage());
 }
  
 }
+=======
+	EmpWagePart2Usingclass emp2=new EmpWagePart2Usingclass("Info",30,3,10);
+	System.out.println("Total Emp Wage For Company " +emp.company + " is: " + emp.computeWage());
+   System.out.println("Total Emp Wage For Company " +emp1.company + " is: " + emp1.computeWage());
+	System.out.println("Total Emp Wage For Company " +emp2.company + " is: " + emp2.computeWage());
+}
+ 
+}
+
+>>>>>>> saveTotalWageForEachCompanyUC-9
